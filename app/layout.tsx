@@ -9,15 +9,13 @@ import { LanguageProvider } from '@/components/providers/LanguageProvider';
 
 const inter = Inter({ subsets: ['latin'] });
 
-// Define viewport separately to fix Vercel warnings
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   maximumScale: 1,
-  themeColor: '#dc2626', // Matches your brand red
+  themeColor: '#dc2626',
 };
 
-// Metadata for SEO and social sharing
 export const metadata: Metadata = {
   title: 'KurakotKiller.ph - Expose Philippines Flood Control Corruption',
   description: 'Track the $9.5B flood-control corruption scandal in the Philippines. Real-time evidence sharing, protest coordination, and community chat for justice.',
