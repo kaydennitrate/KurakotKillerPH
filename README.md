@@ -7,7 +7,7 @@
   ![Vercel](https://img.shields.io/badge/Hosted%20on-Vercel-black)
   ![Philippines](https://img.shields.io/badge/Built%20for-Philippines-blue)
   
-  **Expose the ₱9.5B Flood-Control Corruption Scandal**
+  **Expose the ₱3.3T Flood-Control Corruption Scandal**
   
   *Built for Filipinos, by Filipinos. Since corrupt officials stole our funds, we're using Vercel's free hosting to expose them.*
 
