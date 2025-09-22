@@ -9,16 +9,18 @@ import { LanguageProvider } from '@/components/providers/LanguageProvider';
 
 const inter = Inter({ subsets: ['latin'] });
 
+// Separate viewport to avoid warnings
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   maximumScale: 1,
-  themeColor: '#dc2626',
+  themeColor: '#dc2626', // Red for activist theme
 };
 
+// Metadata for SEO (per prompt: keywords, OpenGraph, Twitter)
 export const metadata: Metadata = {
   title: 'KurakotKiller.ph - Expose Philippines Flood Control Corruption',
-  description: 'Track the $9.5B flood-control corruption scandal in the Philippines. Real-time evidence sharing, protest coordination, and community chat for justice.',
+  description: 'Track the $9.5B flood-control corruption scandal. Real-time evidence sharing, protest coordination, community chat for justice.',
   keywords: [
     'Philippines corruption 2025',
     'flood scandal protests',
@@ -32,24 +34,17 @@ export const metadata: Metadata = {
   manifest: '/manifest.json',
   openGraph: {
     title: 'KurakotKiller.ph: Track the Flood Scam!',
-    description: 'Join thousands of Filipinos exposing the flood-control corruption scandal. Share evidence, track protests, demand justice.',
+    description: 'Join Filipinos exposing corruption. Share evidence, track protests, demand justice.',
     url: 'https://kurakotkiller.ph',
     siteName: 'KurakotKiller.ph',
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'KurakotKiller.ph - Anti-Corruption Platform',
-      },
-    ],
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Anti-Corruption Platform' }],
     locale: 'en_PH',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'KurakotKiller.ph: Track the Flood Scam!',
-    description: 'Join thousands of Filipinos exposing corruption. Share evidence, track protests, demand justice.',
+    description: 'Join Filipinos exposing corruption. Share evidence, track protests, demand justice.',
     creator: '@KurakotKillerPH',
     images: ['/og-image.png'],
   },
@@ -66,9 +61,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body
-        className={`${inter.className} bg-black text-white min-h-screen flex flex-col`}
-      >
+      <body className={`${inter.className} bg-black text-white min-h-screen flex flex-col`}>
         <LanguageProvider>
           <NotificationProvider>
             <Header />
