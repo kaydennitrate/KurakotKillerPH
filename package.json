@@ -9,21 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.45.4", // For real-time chat/uploads (optional: remove if no Supabase)
-    "leaflet": "^1.9.4", // For heatmaps/protest tracker
-    "next": "14.2.15", // Upgraded from 14.0.3 for Vercel compatibility
+    "leaflet": "^1.9.4",
+    "next": "14.2.15",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tailwindcss": "^3.4.1" // Assuming shadcn/ui/Tailwind setup
+    "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.12",
     "@types/node": "^20.14.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "eslint": "^9.6.1", // Upgraded from 8.49.0
+    "eslint": "^9.6.1",
     "postcss": "^8.4.38",
-    "rimraf": "^5.0.7", // Upgraded from 3.0.2
+    "rimraf": "^5.0.7",
     "typescript": "^5.5.3"
   }
 }
