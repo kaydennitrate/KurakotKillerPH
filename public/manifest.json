@@ -1,0 +1,24 @@
+{
+  "name": "KurakotKiller.ph - Anti-Corruption Tracker",
+  "short_name": "KurakotKiller",
+  "description": "Track corruption in Philippines flood-control projects. Real-time evidence sharing and protest coordination.",
+  "theme_color": "#dc2626",
+  "background_color": "#000000",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["news", "social", "government"]
+}
